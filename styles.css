@@ -1,0 +1,269 @@
+.html{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position:sticky;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  z-index: 10;
+  transition-duration: 0.4s;
+}
+
+.button_one {
+  float: left;
+  display: block;
+  color: #a4894b;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 60px;
+  padding-left: 35px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 95%;
+  font-weight:551;
+}
+
+.nav_buttons{
+  text-decoration: none;
+  float: right;
+  text-align: center;
+  display: block;
+  font-size: medium;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  font-weight:500;
+  padding-top: 27px;
+  padding-left: 10px;
+  padding-right: 30px;
+  
+}
+
+/* .nav_buttons:hover{
+  color: #c28109;
+} */
+
+.navbar a:hover {
+  color: #a4894b;
+}
+
+.Text1_overlay{
+  position: absolute;
+  color: white;
+  font-size: 300%;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: .8rem;
+  left: 25%;
+  top: 30%; 
+}
+
+.block1{
+  position:absolute;
+  display: flex;
+  width: 1239px;
+  top: 760px;
+  /* z-index: 1; */
+  height: 750px;
+  background-color: white;
+
+}
+
+.servicesblock{
+  position: flex;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+ width: 325px;
+ height: 530px;
+ top: 0;
+ left: 0;
+ background-color: #a4894b;
+ margin-top: 75px;
+ margin-left: 75px;
+}
+
+.background1{
+  background-image: url('image3.png');
+  background-attachment: fixed;
+}
+
+
+.background2{
+  background-image: url('image3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  width: 1239px;
+}
+
+/* .Tables{
+  top:800px;
+} */
+
+.text1{
+  margin-top: 120px;
+  margin-left: 10px;
+  color: white;
+  letter-spacing: .6rem;
+  font-weight: 500;
+  font-size:165%;
+}
+
+.text2{
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: .1rem;
+  margin-top: 25px;
+  font-size:larger;
+}
+
+.button1{
+  margin-top: 60px;
+  background-color: #a4894b;
+  color: white;
+  border: 2px solid #e7e7e7;
+  font-size:small;
+  height: 45px;
+  width: 200px;
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.testimonial{
+  background-color: white;
+  position:absolute;
+  width: 1239px;
+  height:450px;
+  margin-top: 550px;
+  text-align: center;
+  font-size:xx-large;
+  z-index: 3;
+}
+
+.testimonialtext{
+  font-family:'Times New Roman', Times, serif;
+  position:absolute;
+  width: 425px;
+  padding-left: 410px;
+  margin-top: 125px;
+}
+
+.background_help{
+  width: 1239px;
+  margin-left: 135px;
+}
+
+.tables{
+  background-image: url('image2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 1550px;
+  
+}
+
+.footer{
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  width: 1100px;
+  height: 200px;
+  background-color: #a4894b;
+  margin-left: 50px;
+  margin-top: 1650px;
+  margin-bottom: 150px;
+  color: white ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_clear{
+  width: 1239px;
+  height: 50px;
+  background-color: white;
+  margin-top: 275px;
+}
+
+.gallerytab{
+  position: absolute;
+  width: 285px;
+  height: 475px;
+  background-color: #a4894b;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 500px;
+  margin-left: 725px;
+}
+
+.tabtext{
+  color: white;
+  letter-spacing: .6rem;
+  margin-top: 100px;
+  font-size: 100%;
+}
+
+.tabtext2{
+  color: white;
+  margin-top: 10px;
+  font-size: 50%;
+  letter-spacing: .6rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button2{
+  margin-top: 60px;
+  background-color: #a4894b;
+  color: white;
+  border: 2px solid #e7e7e7;
+  font-size:small;
+  height: 45px;
+  width: 200px;
+}
+
+.button2:hover{
+  cursor: pointer;
+}
+
+.button3{
+  margin-top: 75px;
+  background-color: #a4894b;
+  color: white;
+  border: 2px solid #e7e7e7;
+  font-size:small;
+  height: 45px;
+  width: 200px;
+  margin-left: 75px;
+}
+
+.button3:hover{
+  cursor: pointer;
+}
+
+.leftarrow{
+  position: absolute;
+  float: left;
+  margin-top: 225px;
+  margin-left: 75px;
+  font-size: 145%;
+}
+
+.rightarrow{
+  position: absolute;
+  float: right;
+  margin-top: 225px;
+  margin-left: 1030px;
+  font-size: 145%;
+}
+
+.leftarrow:hover{
+  cursor: pointer;
+}
+
+.rightarrow:hover{
+  cursor: pointer;
+}
